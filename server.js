@@ -6,6 +6,7 @@ const crypto = require('crypto');
 const assert = require('assert');
 const zlib = require('zlib');
 const { URL } = require('url');
+require('dotenv').config();
 
 // Manual constants
 const ALLOWED_METHODS = http.METHODS;
